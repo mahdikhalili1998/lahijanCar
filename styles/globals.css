@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    margin: 1rem;
+    background-color: #f1f5f9;
+  }
+}
+@layer utilities {
+  cursor {
+    cursor: pointer;
+  }
+}
